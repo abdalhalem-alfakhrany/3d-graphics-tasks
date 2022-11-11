@@ -73,19 +73,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\build</OutDir>
-    <IncludePath>C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\3dGraphicsTasks\external\glut-3.7.6\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\external\glut-3.7.6\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>..\build</OutDir>
-    <IncludePath>C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\3dGraphicsTasks\external\glut-3.7.6\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\external\glut-3.7.6\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>..\build</OutDir>
-    <IncludePath>C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\3dGraphicsTasks\external\glut-3.7.6\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\external\glut-3.7.6\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>..\build</OutDir>
-    <IncludePath>C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\3dGraphicsTasks\external\glut-3.7.6\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\external\glut-3.7.6\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -97,7 +97,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\3dGraphicsTasks\external\glut-3.7.6\lib;C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\Task1\external\glut-3.7.6\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\external\glut-3.7.6\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glut32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -115,7 +115,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\3dGraphicsTasks\external\glut-3.7.6\lib;C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\Task1\external\glut-3.7.6\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\external\glut-3.7.6\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glut32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -129,7 +129,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\3dGraphicsTasks\external\glut-3.7.6\lib;C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\Task1\external\glut-3.7.6\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\external\glut-3.7.6\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glut32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -147,7 +147,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\3dGraphicsTasks\external\glut-3.7.6\lib;C:\Users\Abdalhalem Hosni\DEV\3d Graphics Course projects\Task1\external\glut-3.7.6\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\external\glut-3.7.6\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glut32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
